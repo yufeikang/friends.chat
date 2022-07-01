@@ -9,7 +9,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      API_BASE: 'https://rpc.kraken.fm'
+      API_BASE: 'https://chat-rpc.dev-proxy.site'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
